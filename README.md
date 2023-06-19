@@ -1,7 +1,7 @@
 <h1> Analytics Dashboard </h1>
 
-Full Stack Analytics Dashboard Prototype built for startup with ReactJS, Flask and MySQL <br>
-(cannot include database in git repo) <br> <br>
+Full Stack Analytics Dashboard Prototype built as a summer project for an analytics startup using ReactJS, Flask and MySQL <br>
+(cannot include database in git repo and cannot host website due to NDA) <br> <br>
 
 <h3> Steps to configure </h3>
 <ol>
