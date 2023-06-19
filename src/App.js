@@ -1,24 +1,25 @@
-import logo from './logo.svg';
+import {Login}  from './Components/Login'
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Dashboard from './Components/Dashboard';
+import Navbar from './Components/Navbar';
+import About from './Components/About';
+
+// JSX.Element -> when no props are passed
+// React.FC -> when props are passed
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Login/>}></Route>
+        <Route path='/dashboard' element={<Dashboard/>}></Route>
+        <Route path='/about' element={<About />}></Route>
+      </Routes>
+      
+    </BrowserRouter>
   );
 }
 

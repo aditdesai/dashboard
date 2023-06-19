@@ -1,0 +1,36 @@
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 35%;
+    justify-content: center;
+}
+
+.flexbox-item {
+    width: 100%;
+    flex-grow: 1;
+}
+
+
+#nivo {
+    display: flex;
+    height: 20vh;
+}
+
+
+h1 {
+    color: white;
+    margin-left: 20px;
+}
+
+#plotly {
+    display: flex;
+}
+
+#highcharts {
+    height: 20%;
+    display: flex;
+}
+
+#recharts {
+    display: flex;
+}

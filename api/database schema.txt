@@ -1,0 +1,3 @@
+CREATE TABLE schools (school_id int PRIMARY KEY, domain varchar(30), name varchar(40));
+CREATE TABLE students (school_id int, stu_id int PRIMARY KEY, name varchar(30), class int, section char(2), FOREIGN KEY (school_id) REFERENCES schools (school_id));
+CREATE TABLE marks (stu_id int, subject varchar(30), exam_type varchar(20), marks int, FOREIGN KEY (stu_id) REFERENCES students (stu_id));
