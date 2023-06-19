@@ -1,6 +1,6 @@
 import { ResponsiveBar } from '@nivo/bar'
 import { ResponsivePie } from '@nivo/pie'
-import './Dashboard.css'
+import './Nivo.css'
 
 export default function NivoCharts(props) {
     const nivoTheme = {

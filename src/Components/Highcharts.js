@@ -1,6 +1,6 @@
 import Highcharts from "highcharts"
 import HighchartsReact from "highcharts-react-official"
-import './Dashboard.css'
+import './Highcharts.css'
 
 export default function HighCharts(props) {
     const optionsUT = {

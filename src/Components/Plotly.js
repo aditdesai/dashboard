@@ -1,5 +1,5 @@
 import Plot from "react-plotly.js"
-import "./Dashboard.css"
+import "./Plotly.css"
 
 export default function Plotly(props) {
     const plot1 = [
