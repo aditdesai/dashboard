@@ -63,3 +63,7 @@ This project was made as a summer project for a Bangalore-based startup called 7
         <code>npm start</code>
     </li>
 </ol>
+
+
+<h2> Testing </h2>
+Run <code>npm run test</code> command.
