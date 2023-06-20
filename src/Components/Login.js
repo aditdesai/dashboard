@@ -33,7 +33,7 @@ export const Login = () => {
     }, [user])
     
     return (
-        <div className="w-25 mx-auto my-5 width">
+        <div className="w-25 mx-auto my-5 width" data-testid="login-1">
             <form>
                 <div className="mb-3">
                     <label htmlFor="exampleInputEmail1" className="form-label text-white">Email address</label>
