@@ -1,6 +1,6 @@
 <h1> Analytics Dashboard </h1>
 
-A full-stack Progressive Web App of a Student Performance Analytics Dashboard that streamlines the process of analyzing and visualizing class and student data for school teachers. 
+A full-stack web app of a Student Performance Analytics Dashboard that streamlines the process of analyzing and visualizing class and student data for school teachers. 
 <br> <br>
 This project was made as a summer project for a Bangalore-based startup called 7Sages Solutions LLP. I was tasked to identify a tech stack suitable to their needs and build a robust and scalable prototype.
 <br> <br> <br>
