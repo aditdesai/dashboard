@@ -28,7 +28,7 @@ export default function Plotly(props) {
 
     return (
         <>
-            <h1> Plotly </h1>
+
             <div id="plotly" className="my-3">
                 {
                     props.marksRangeCountTT['0-39'] + props.marksRangeCountTT['40-79'] + props.marksRangeCountTT['80-100'] !== 0 ?

@@ -96,7 +96,6 @@ export default function NivoCharts(props) {
 
     return (
         <>
-            <h1> Nivo </h1>
             <div id="nivo" className="my-3">
                 {
                     props.marksRangeCountTT['0-39'] + props.marksRangeCountTT['40-79'] + props.marksRangeCountTT['80-100'] !== 0 ?

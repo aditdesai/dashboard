@@ -260,8 +260,8 @@ export default function Dashboard() {
 
             {studentData.length !== 0 ?
                 <div ref={refVar} id="page">
-                    <Plotly marksRangeCountTT={marksRangeCountTT} marksRangeCountUT={marksRangeCountUT} subjectWiseMarks={subjectWiseMarks} />
                     <HighCharts marksRangeCountTT={marksRangeCountTT} marksRangeCountUT={marksRangeCountUT} subjectWiseMarks={subjectWiseMarks} />
+                    <Plotly marksRangeCountTT={marksRangeCountTT} marksRangeCountUT={marksRangeCountUT} subjectWiseMarks={subjectWiseMarks} />
                     <NivoCharts marksRangeCountTT={marksRangeCountTT} marksRangeCountUT={marksRangeCountUT} subjectWiseMarks={subjectWiseMarks} />
                 </div>
 
