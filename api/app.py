@@ -65,13 +65,6 @@ def getMarksData():
     print(sql)
     cursor.execute(sql)
     data = cursor.fetchall()
-    
-    '''
-    for i in range(len(data)):
-        cursor.execute("SELECT name, class, section FROM students WHERE stu_id = %s", (data[i][0],))
-        new_data = cursor.fetchone()
-        data[i] = (data[i][0], new_data[0], new_data[1], new_data[2], data[i][1], data[i][2], data[i][3])
-    '''
 
     response = jsonify({'marks' : data})
     response.headers.add('Access-Control-Allow-Origin', '*')
