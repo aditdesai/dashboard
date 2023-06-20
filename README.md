@@ -3,8 +3,11 @@
 A full-stack Progressive Web App of a Student Performance Analytics Dashboard that streamlines the process of analyzing and visualizing class and student data for school teachers. 
 <br> <br>
 This project was made as a summer project for a Bangalore-based startup called 7Sages Solutions LLP. I was tasked to identify a tech stack suitable to their needs and build a robust and scalable prototype.
-<br> <br>
+<br> <br> <br>
+
 ![Website Preview](image.png)
+
+<br>
 <h2> Objectives </h2>
 <ul>
     <li> Simplify the management and analysis of student performance data for schools and teachers with large class sizes. </li>
